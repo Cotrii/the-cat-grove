@@ -5,6 +5,12 @@ body {
     margin: 0px;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
 
 /* Root for colors*/
 :root {
@@ -72,6 +78,14 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+
+    max-width: 560px;
+    max-height: 250px;
+}
+
+.hero-image {
+    width: 560px;
+
 }
 
 .header-hero-left{
@@ -114,6 +128,8 @@ body {
 
 }
 
+
+
 /* Section 2 - Information Section*/
 
 .info-container {
@@ -129,12 +145,13 @@ body {
     color: var(--dark)
 }
 
-.image-container {
+.images-container {
     display: flex;
     justify-content: center;
 
     gap: 30px;
     margin-bottom: 100px;
+    
 }
 
 .image-w-desc-cont {
@@ -146,14 +163,25 @@ body {
 
 .desc-figure {
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
-    border: #3882f6 3px solid;
+    width: 156px;
+    height: 156px;
+    border: var(--secondary) 3px solid;
     align-items: center;
 }
 
+.secimg {
+
+    width: 156px;
+    height: 156px;
+
+    border-radius: 5px;
+
+    max-width: 156px;
+    max-height: 156px;
+}
+
 .subtext {
-    width: 165px;
+    width: 156px;
     text-align: center;
     font-size: 18px;
     color: gray;
