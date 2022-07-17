@@ -10,8 +10,8 @@ body {
 :root {
     --gray: #E5E7EB;
     --white: #F9FAF8;
-    --dark: #1F2937;
-    --blue: #3882f6;
+    --dark: #191919;
+    --secondary: #fe8600;
 }
 
 /* Main containers */
@@ -95,15 +95,20 @@ body {
 }
 
 .header-hero-button {
-    background-color: var(--blue);
-    padding: 10px 25px;
+    background-color: var(--secondary);
+    padding: 10px 20px;
     margin: 15px 2px;
     width: 70px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
     font-weight: extra-bold;
-    font-size: 18px;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
     color: var(--white);
 
@@ -185,7 +190,7 @@ body {
 }
 
 .call-cont{
-    background-color: var(--blue);
+    background-color: var(--secondary);
     margin: 100px 200px;
 
     height: 100px;
